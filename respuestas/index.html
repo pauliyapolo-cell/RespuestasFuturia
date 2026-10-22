@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <title>Respuestas de Juego de Mesa | Futuria</title>
+  <meta name="description" content="Consulta las respuestas de cada categoría del juego de mesa Futuria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#inicio" class="brand"><img src="logo.jpeg" alt="Futuria" /></a>
+    <nav id="nav"></nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <img class="hero-logo" src="logo.jpeg" alt="Logo Futuria" />
+    <h1>RESPUESTAS DE <span>JUEGO DE MESA</span></h1>
+    <div class="line"></div>
+    <p>Tras haber respondido la pregunta que se obtuvo del juego de mesa, busca en la siguiente lista la categoría y el número de pregunta que salió en la carta para saber si la respuesta ha sido correcta o incorrecta.</p>
+  </section>
+
+  <section class="band">
+    <div class="tab"><h2>Elige una categoría</h2><div class="tab-line"></div></div>
+    <div class="cats" id="cats"></div>
+  </section>
+
+  <main id="content"></main>
+
+  <footer class="footer">
+    <div class="stars"></div>
+    <img src="logo.jpeg" alt="Futuria" class="foot-logo" />
+    <p>© 2026 Futuria. Todos los derechos reservados.</p>
+  </footer>
+
+  <button id="top" aria-label="Volver arriba">↑</button>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
